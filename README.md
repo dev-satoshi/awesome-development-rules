@@ -16,7 +16,11 @@
 
 ## Gitの運用について
 <h2 id="branch">ブランチについて</h2>
-
+main 公開するものを置くブランチ
+develop 開発中のものを置くブランチ
+release 次にリリースするものを置くブランチ
+feature-\* 新機能開発中に使うブランチ
+hotfix-\* 公開中のもののバグ修正用ブランチ
 
 <h2 id="commit-message">コミットメッセージの記法</h2>
 init (first commit)
@@ -30,3 +34,4 @@ fix: バグ修正
 remove: 削除(ファイル、機能)
 revert: 変更取り消し
 test: 不足しているテストの追加や既存のテストの修正
+sleep: i'm so sleepy
