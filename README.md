@@ -23,8 +23,9 @@ init (first commit)
 setup (プロジェクトのセットアップ)
 add: 新規(ファイル、機能)
 update: 機能修正(バグではない)
-change: 仕様変更
+perf: パフォーマンスを向上させるためのコード変更
 clean: 整理(リファクタリング等)
+change: 仕様変更
 fix: バグ修正
 remove: 削除(ファイル、機能)
 revert: 変更取り消し
