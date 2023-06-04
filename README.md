@@ -14,15 +14,26 @@
 <h2 id="repository">各種リポジトリのリンク</h2>
 <h2 id="technology-used">使用技術について</h2>
 
-## Gitの運用について
-<h2 id="branch">ブランチについて</h2>
-main 公開するものを置くブランチ
-develop 開発中のものを置くブランチ
-release 次にリリースするものを置くブランチ
-feature-\* 新機能開発中に使うブランチ
-hotfix-\* 公開中のもののバグ修正用ブランチ
+<h1 id="git-operation">Gitの運用について</h1>
 
-<h2 id="commit-message">Prefix（コミットメッセージ記法）</h2>
+<h3 id="branch">branch命名ルール</h3>
+
+| branch | 説明 |
+| --- | --- |
+| main | 本番環境 | 
+| develop | 開発中のものを置くブランチ |
+| release | 次にリリースするものを置くブランチ |
+| feature-/* | 新機能開発中に使うブランチ |
+| hotfix-/* | 公開中のもののバグ修正用ブランチ |
+| sandbox | なんでも |
+
+※ branch運用基本ルール
+- mainに直push禁止
+- 作業はfeatureブランチから分岐させる
+- 作業ブランチはマージ後に削除
+- できるだけレビューする(誰かにしてもらう)
+
+<h3 id="prefix">Prefix（コミットメッセージ記法）</h3>
 
 | Prefix | 説明 |
 | --- | --- |
@@ -42,7 +53,7 @@ hotfix-\* 公開中のもののバグ修正用ブランチ
 | merge | ブランチをマージ |
 | sleep | 寝たw |
 
-※　コミットメッセージの例
+※ コミットメッセージの例
 - init
 - setup: プロジェクトのセットアップ
 - add: ユーザー登録機能の追加
