@@ -54,6 +54,6 @@
 
 ※ コミットメッセージの例
 - init
-- setup: プロジェクトのセットアップ
+- chore: Reactと依存関係を追加
 - add: ユーザー登録機能の追加
 - sleep: I'm so sleepy
