@@ -1,22 +1,28 @@
-## 目次
-- [システム構成について](#system-configuration)
-- [各種リポジトリのリンク](#repository)
-- [使用技術について](#technology-used)
-- [環境構築]()
-- [ディレクトリ設計]()
+<h1>Development Rules</h1>
+
+<h2>目次</h2>
+
+- [READMEに記載すること](#readme)
+- [Gitの運用について](#git-operation)
+- [CSS設計](css-design)
+
 - [コンポーネント設計]()
-- [基本的な作業手順]()
-- [コンポーネント設計]()
-- [Gitの運用について]()
-- [作業する上で参考になりそうな記事一覧]()
 
-<h2 id="system-configuration">開発構成の概要</h2>
-<h2 id="repository">各種リポジトリのリンク</h2>
-<h2 id="technology-used">使用技術について</h2>
+<h2 id="readme">READMEに記載すること</h2>
 
-<h1 id="git-operation">Gitの運用について</h1>
+- プロジェクトの概要
+- 目次
+- 使用技術(Sheid, Simple Iconsを使用)
+- システム構成
+- ER図
+- ディレクトリ構成
+- 必要な環境変数やコマンド一覧
+- 開発環境の構築方法
+- 作業する上で参考になりそうな記事一覧
 
-<h3 id="branch">branch命名ルール</h3>
+<h2 id="git-operation">Gitの運用について</h2>
+
+<h3>branch命名ルール</h3>
 
 | branch | 説明 |
 | --- | --- |
@@ -33,7 +39,7 @@
 - 作業ブランチはマージ後に削除
 - できるだけレビューする(誰かにしてもらう)
 
-<h3 id="prefix">Prefix（コミットメッセージ記法）</h3>
+<h3>Prefix（コミットメッセージ記法）</h3>
 
 | Prefix | 説明 |
 | --- | --- |
@@ -57,3 +63,7 @@
 - chore: Reactと依存関係を追加
 - add: ユーザー登録機能の追加
 - sleep: I'm so sleepy
+
+<h3 id="css-design">CSS設計</h3>
+
+- BEM
