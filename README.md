@@ -4,7 +4,7 @@
 
 - [READMEに記載すること](#readme)
 - [Gitの運用について](#git-operation)
-- [CSS設計](＃css-design)
+- [CSS設計](#css-design)
 
 - [コンポーネント設計]()
 
