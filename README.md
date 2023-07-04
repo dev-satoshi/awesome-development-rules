@@ -61,7 +61,7 @@
 ※ コミットメッセージの例
 - init
 - chore: Reactと依存関係を追加
-- add: ユーザー登録機能の追加
+- add: ユーザー登録機能を追加
 - sleep: I'm so sleepy
 
 <h3 id="css-design">CSS設計</h3>
