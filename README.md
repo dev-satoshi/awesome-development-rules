@@ -64,6 +64,15 @@
 - add: ユーザー登録機能を追加
 - sleep: I'm so sleepy
 
+<h3>Prefix(短縮Ver)</h3>
+
+| Prefix | 説明 |
+| --- | --- |
+| add | 新規(ファイル、機能) |
+| remove | 削除(ファイル、機能) |
+| update | 機能修正(バグではない) |
+| fix | バグ修正 |
+
 <h3 id="css-design">CSS設計</h3>
 
 - BEM
