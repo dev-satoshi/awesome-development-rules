@@ -22,16 +22,23 @@
 
 <h2 id="git-operation">Gitの運用について</h2>
 
-<h3>branch命名ルール</h3>
+<h3>Git-flow</h3>
 
 | branch | 説明 |
 | --- | --- |
 | main | 本番環境 | 
 | develop | 開発中のものを置くブランチ |
 | release | 次にリリースするものを置くブランチ |
-| feature/* | 新機能開発に使うブランチ |
+| feature/* | 新機能開発や不具合の修正に使うブランチ |
 | hotfix/* | 公開中のもののバグ修正用ブランチ |
 | sandbox | なんでも |
+
+<h3>GitHub-flow</h3>
+
+| branch | 説明 |
+| --- | --- |
+| main | 本番環境 | 
+| feature/* | 作業用ブランチ |
 
 ※ branch運用基本ルール
 - mainに直push禁止
