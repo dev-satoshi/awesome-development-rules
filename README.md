@@ -5,8 +5,11 @@
 - [READMEに記載すること](#readme)
 - [Gitの運用について](#git-operation)
 - [CSS設計](#css-design)
-
 - [コンポーネント設計]()
+- [便利なテンプレート](#template)
+
+
+
 
 <h2 id="readme">READMEに記載すること</h2>
 
@@ -86,3 +89,12 @@
 
 - BEM
 - OOCSS
+
+<h3 id="template">便利なテンプレート</h3>
+
+- [PullRequest](https://gist.github.com/dev-satoshi/65a0ac8b772b83c1ce73f4f460acd45e)
+- [ユーザーストーリー](https://gist.github.com/dev-satoshi/569f44c5a074c9e1cb09269e717f8327)
+- [デイリースクラム](https://gist.github.com/dev-satoshi/f2bf3571666482fe37ec9c8d30c7451c)
+
+
+
