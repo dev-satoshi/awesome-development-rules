@@ -40,7 +40,8 @@
 | main | 本番環境 | 
 | feature/* | 作業用ブランチ |
 
-※ branch運用基本ルール
+<h3>※branch運用基本ルール</h3>
+
 - mainに直push禁止
 - 原則1ブランチ1機能
 - 作業はfeatureブランチから分岐させる
