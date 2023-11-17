@@ -46,6 +46,7 @@
 <h2 id="git-operation">Gitの運用について</h2>
 <h3>ブランチ戦略</h3>
 <h4>Git-flow</h4>
+長期的な開発とリリースの管理を目的としたブランチ戦略
 
 | branch | 説明 |
 | --- | --- |
@@ -57,11 +58,15 @@
 | sandbox | なんでも |
 
 <h4>GitHub-flow</h4>
+シンプルで柔軟なブランチ戦略
 
 | branch | 説明 |
 | --- | --- |
 | main | 本番環境 | 
 | feature/* | 作業用ブランチ |
+
+<h4>GitLab-flow</h4>
+Git-flowとGitHub-flowを組み合わせたブランチ戦略
 
 <h4>※branch運用基本ルール</h4>
 mainに直push禁止<br>
