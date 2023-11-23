@@ -151,6 +151,7 @@ mainに直push禁止<br>
 <h2 id="template">便利なテンプレート</h3>
 
 - [Pull Request](https://gist.github.com/dev-satoshi/65a0ac8b772b83c1ce73f4f460acd45e)
-- [ユーザーストーリー](https://gist.github.com/dev-satoshi/569f44c5a074c9e1cb09269e717f8327)
+- [ユーザーストーリー](https://gist.github.com/dev-satoshi/255f96a59562a7b613dfb1aa6ad0beca)
 - [デイリースクラム](https://gist.github.com/dev-satoshi/f2bf3571666482fe37ec9c8d30c7451c)
+
 
