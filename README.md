@@ -174,13 +174,13 @@ mainに直push禁止<br>
 | fix | バグ修正 |
 
 
-<h2 id="css-design">CSS設計</h3>
+<h2 id="css-design">CSS設計</h2>
 
 - BEM
 - OOCSS
 
 
-<h2 id="template">便利なテンプレート</h3>
+<h2 id="template">便利なテンプレート</h2>
 
 - [質問](https://gist.github.com/dev-satoshi/4357a9d270b50c78ad9dd45e8c78ec7f)
 - [Pull Request](https://gist.github.com/dev-satoshi/65a0ac8b772b83c1ce73f4f460acd45e)
