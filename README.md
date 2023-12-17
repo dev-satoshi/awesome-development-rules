@@ -1,4 +1,4 @@
-<h1>Development Rules</h1>
+<h1>Awesome Development Rules</h1>
 
 <h2>目次</h2>
 
