@@ -9,7 +9,6 @@
 - [ドキュメントの整備](#document)
 - [Gitの運用について](#git-operation)
 - [CSS設計](#css-design)
-- [コンポーネント設計]()
 - [リファレンス](#reference)
 - [便利なテンプレート](#template)
 
