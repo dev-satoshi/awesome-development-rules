@@ -242,5 +242,6 @@ Googleの人工知能チームが採用している「15分ルール」は、問
 - [Pull Request](https://gist.github.com/dev-satoshi/65a0ac8b772b83c1ce73f4f460acd45e)
 - [ユーザーストーリー](https://gist.github.com/dev-satoshi/255f96a59562a7b613dfb1aa6ad0beca)
 - [デイリースクラム](https://gist.github.com/dev-satoshi/f2bf3571666482fe37ec9c8d30c7451c)
+- [記事の構成](https://gist.github.com/dev-satoshi/75db364f8af8eb7a903617c3ed5d720a)
 
 
