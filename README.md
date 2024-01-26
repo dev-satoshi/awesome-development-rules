@@ -21,12 +21,22 @@
 
 <h3>DocstringやJSDocなどを使いコメントを残す</h3>
 
-<h3>Betterコメントでわかりやすくコメントを残す</h3>
+<h3>アノテーションコメントでわかりやすくコメントを残す</h3>
 
-- // ! 警告
-- // ? 疑問
-- // * 強調
-- // TODO タスク
+
+
+#### Betterコメント
+
+```
+// * 強調
+// ! 警告
+// ? 疑問
+// TODO タスク
+```
+
+#### アノテーションコメントを一覧で見ることができるVSCode拡張機能
+[Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
+
 
 <h3>Twelve-Factor App</h3>
 モダンなWebアプリケーションとしてあるべき姿を12のベストプラクティスにまとめた方法論です。<br>
