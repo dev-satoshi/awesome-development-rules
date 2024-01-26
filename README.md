@@ -19,11 +19,40 @@
 チーム内で合意したコーディング規約、スタイルガイド、原則を遵守する。<br>
 コードは明確で読みやすく、コメントを適切に付ける。
 
-<h3>DocstringやJSDocなどを使いコメントを残す</h3>
+<h3>ドキュメンテーションコメントを使う</h3>
+ドキュメンテーションコメント（Documentation Comments）は、ソースコード内に挿入される特殊なコメントで、ソフトウェアの要素（関数、クラス、モジュールなど）に対するドキュメンテーションや説明を提供するためのものです。
+
+#### Pythonの場合（Docstring）
+
+```
+def example_function(parameter):
+    """
+    これはドックストリングです。この関数に対するドキュメンテーションを提供します。
+
+    パラメータ:
+    parameter: パラメータの説明。
+    
+    戻り値:
+    戻り値の説明。
+    """
+    # 関数の実装
+```
+
+#### JS&TSの場合（JSDoc）
+
+```
+/**
+ * これはJSDocコメントです。この関数に対するドキュメンテーションを提供します。
+ *
+ * @param {string} parameter - パラメータの説明。
+ * @returns {number} 戻り値の説明。
+ */
+function exampleFunction(parameter) {
+    // 関数の実装
+}
+```
 
 <h3>アノテーションコメントでわかりやすくコメントを残す</h3>
-
-
 
 #### Betterコメント
 
@@ -36,7 +65,6 @@
 
 #### アノテーションコメントを一覧で見ることができるVSCode拡張機能
 [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
-
 
 <h3>Twelve-Factor App</h3>
 モダンなWebアプリケーションとしてあるべき姿を12のベストプラクティスにまとめた方法論です。<br>
