@@ -26,24 +26,25 @@
 
 ```
 def count_characters(text: str) -> int:
-  """
-  文字列の長さを返します。
+  """文字列の長さを返します。
+
+  この関数は、与えられた文字列の長さを計算し、その値を返します。
 
   Args:
-    text: 文字列。
+      text: 文字列。
 
   Returns:
-    int: 文字列の長さ。
+      int: 文字列の長さ。
 
   Raises:
-    TypeError: 引数が文字列ではない場合。
+      TypeError: 引数が文字列ではない場合。
 
   Examples:
-    >>> count_characters("Hello world!")
-    12
+      >>> count_characters("Hello world!")
+      12
 
   Note:
-    空文字列("")の場合、0を返します。
+      空文字列("")の場合、0を返します。
   """
 
   if not isinstance(text, str):
