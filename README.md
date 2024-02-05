@@ -25,19 +25,31 @@
 #### Pythonの場合（Docstring）
 
 ```
-def example_function(parameter):
-    """
-    これはドックストリングです。この関数に対するドキュメンテーションを提供します。
+def count_characters(text: str) -> int:
+  """
+  文字列の長さを返します。
 
-    Args:
-    parameter: パラメータの説明。
-    
-    Returns:
-    戻り値の説明。
-    """
+  Args:
+    text: 文字列。
 
-    # 関数の実装
-    return len(parameter)
+  Returns:
+    int: 文字列の長さ。
+
+  Raises:
+    TypeError: 引数が文字列ではない場合。
+
+  Examples:
+    >>> count_characters("Hello world!")
+    12
+
+  Note:
+    空文字列("")の場合、0を返します。
+  """
+
+  if not isinstance(text, str):
+    raise TypeError("引数は文字列である必要があります。")
+
+  return len(text)
 ```
 
 #### JSの場合（JSDoc）
