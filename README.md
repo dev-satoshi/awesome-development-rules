@@ -30,10 +30,10 @@ def example_function(parameter):
     これはドックストリングです。この関数に対するドキュメンテーションを提供します。
 
     Args:
-    parameter: パラメータの説明。型は`str`です。
+    parameter: パラメータの説明。
     
     Returns:
-    戻り値の説明。型は`int`です。
+    戻り値の説明。
     """
 
     # 関数の実装
@@ -46,11 +46,27 @@ def example_function(parameter):
 /**
  * これはJSDocコメントです。この関数に対するドキュメンテーションを提供します。
  *
- * @param {string} parameter - パラメータの説明。
+ * @param {string} parameter パラメータの説明。
  * @returns {number} 戻り値の説明。
  */
 function exampleFunction(parameter) {
-    // 関数の実装
+  // 関数の実装
+  return parameter.length;
+}
+```
+
+#### TSの場合（TSDoc）
+
+```
+/**
+ * これはTSDocコメントです。この関数に対するドキュメンテーションを提供します。
+ *
+ * @param parameter パラメータの説明。型は`string`です。
+ * @returns 戻り値の説明。型は`number`です。
+ */
+function exampleFunction(parameter: string): number {
+  // 関数の実装
+  return parameter.length;
 }
 ```
 
