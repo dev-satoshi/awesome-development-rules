@@ -29,16 +29,18 @@ def example_function(parameter):
     """
     これはドックストリングです。この関数に対するドキュメンテーションを提供します。
 
-    パラメータ:
-    parameter: パラメータの説明。
+    Args:
+    parameter: パラメータの説明。型は`str`です。
     
-    戻り値:
-    戻り値の説明。
+    Returns:
+    戻り値の説明。型は`int`です。
     """
+
     # 関数の実装
+    return len(parameter)
 ```
 
-#### JS&TSの場合（JSDoc）
+#### JSの場合（JSDoc）
 
 ```
 /**
