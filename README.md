@@ -92,7 +92,10 @@ function exampleFunction(parameter: string): number {
 // * 強調
 // ! 警告
 // ? 疑問
-// TODO タスク
+// TODO: タスク
+// FIXME: 不具合がある
+// HACK: あまり綺麗じゃない解決策
+// XXX: 大きな問題がある
 ```
 
 #### アノテーションコメントを一覧で見ることができるVSCode拡張機能
