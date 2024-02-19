@@ -388,3 +388,5 @@ PREP法とは、Point(ポイント)、Reason(理由)、Example(例)、Point(ポ�
 
 
 <h2 id="deals">お得な情報</h2>
+
+- [ホスティングサービス](https://gist.github.com/dev-satoshi/da065ccd2e8a872020ab9734fc90ee27)
