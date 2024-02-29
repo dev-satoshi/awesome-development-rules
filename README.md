@@ -382,6 +382,7 @@ PREP法とは、Point(ポイント)、Reason(理由)、Example(例)、Point(ポ�
 - [Bug Report](https://gist.github.com/dev-satoshi/db76940bdd018ca42be8c08c60bc1fa4)
 - [Pull Request](https://gist.github.com/dev-satoshi/65a0ac8b772b83c1ce73f4f460acd45e)
 - [ユーザーストーリー](https://gist.github.com/dev-satoshi/255f96a59562a7b613dfb1aa6ad0beca)
+- [ゴールデンサークル理論](https://gist.github.com/dev-satoshi/523ca18d0099f02ba293c412f7d1d8e5)
 - [デイリースクラム](https://gist.github.com/dev-satoshi/f2bf3571666482fe37ec9c8d30c7451c)
 - [README](https://gist.github.com/dev-satoshi/e362c790eb5f6b64e35ed5db6155ea1d)
 - [記事の構成](https://gist.github.com/dev-satoshi/75db364f8af8eb7a903617c3ed5d720a)
