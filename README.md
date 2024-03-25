@@ -136,7 +136,7 @@ function exampleFunction(parameter: string): number {
 SOLID原則は、オブジェクト指向設計の5つの基本的な原則を表します。<br>
 これらの原則は、ソフトウェアの保守性と拡張性を向上させることを目的としています。<br>
 
-#### 単一責任の原則（Single Responsibility）<br>
+#### 単一責任の原則（Single Responsibility Principle）<br>
 1つのモジュール（データや関数をまとめた凝集性のあるもの）は1つだけの責務を負うべき。<br>
 モジュールが1つの責務だけを持つことで、変更が発生した際に影響範囲を最小限に抑えることができる。<br>
 - オープン/クローズドの原則（Open/Closed Principle）<br>
