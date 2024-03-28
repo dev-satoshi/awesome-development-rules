@@ -1,6 +1,6 @@
 <h1>Awesome Development Rules</h1>
 
-<h2>目次</h2>
+<h1>目次</h1>
 
 - [コーディングスタイル](#code-style)
 - [コーディング原則](#code-principle)
@@ -16,11 +16,11 @@
 - [お得な情報](#deals)
 
 
-<h2 id="code-style">コーディングスタイル</h2>
+<h1 id="code-style">コーディングスタイル</h1>
 チーム内で合意したコーディング規約、スタイルガイド、原則を遵守する。<br>
 コードは明確で読みやすく、コメントを適切に付ける。
 
-<h3>ドキュメンテーションコメントを使う</h3>
+<h2>ドキュメンテーションコメントを使う</h2>
 ドキュメンテーションコメント（Documentation Comments）は、ソースコード内に挿入される特殊なコメントで、ソフトウェアの要素（関数、クラス、モジュールなど）に対するドキュメンテーションや説明を提供するためのものです。
 
 #### Pythonの場合（Docstring）
@@ -84,7 +84,7 @@ function exampleFunction(parameter: string): number {
 }
 ```
 
-<h3>アノテーションコメントでわかりやすくコメントを残す</h3>
+<h2>アノテーションコメントでわかりやすくコメントを残す</h3>
 
 #### Betterコメント
 
@@ -101,7 +101,7 @@ function exampleFunction(parameter: string): number {
 #### アノテーションコメントを一覧で見ることができるVSCode拡張機能
 [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
 
-<h3>Twelve-Factor App</h3>
+<h2>Twelve-Factor App</h2>
 モダンなWebアプリケーションとしてあるべき姿を12のベストプラクティスにまとめた方法論です。<br>
 この方法論は、以下の12の要素から成り立っています。
 
@@ -131,8 +131,8 @@ function exampleFunction(parameter: string): number {
 管理タスクを1回限りのプロセスとして実行する
 
 
-<h2 id="code-principle">コーディング原則</h2>
-<h3>SOLID</h3>
+<h1 id="code-principle">コーディング原則</h1>
+<h2>SOLID</h2>
 SOLID原則は、ソフトウェア設計の5つの基本的な原則を表します。<br>
 これらの原則は、ソフトウェアをより理解しやすく、より柔軟に、よりメンテナナンス性の高いものにすることを目的としています。<br>
 
@@ -153,47 +153,48 @@ SOLID原則は、ソフトウェア設計の5つの基本的な原則を表し�
 抽象は実装の詳細に依存してはならない。実装の詳細が抽象に依存すべきである。<br>
 モジュールが具体的な実装に依存していないため、異なるコンテキストでも再利用しやすくなります。<br>
 
-<h3>KISS（Keep It Simple, Stupid）</h3>
+<h2>KISS（Keep It Simple, Stupid）</h2>
 目的：シンプルなソリューションが複雑なものよりも優れているという考え方。<br>
 理由：冗長なコードや複雑な構造はバグの原因となりやすく保守性が低下する。<br>
 
-<h3>DRY（Don’t Repeat Yourself）</h3>
+<h2>DRY（Don’t Repeat Yourself）</h2>
 目的：同じコードやロジックを重複せずに再利用すること。<br>
 理由：共通の機能やロジックを関数やクラスにまとめることで、変更が発生した場合に一箇所の修正で済み、コードの一貫性が保たれる。<br>
 
-<h3>YAGNI（You Ain’t Gonna Need It）</h3>
+<h2>YAGNI（You Ain’t Gonna Need It）</h2>
 目的：将来の利用を想定せず、不必要な機能や拡張を避けて開発効率を向上させる。<br>
 理由：不必要な機能は開発時間の無駄であり、過剰な拡張はコードベースを複雑にし、保守性を低下させるから。<br>
 
-<h3>SLAP（Single Level of Abstraction Principle）</h3>
+<h2>SLAP（Single Level of Abstraction Principle）</h2>
 目的：コード内で同じレベルの抽象度を維持すること。<br>
 理由：コードの読みやすさを向上させ、理解が容易になり、保守性が向上する。<br>
 
-<h3>Separation of Concerns</h3>
+<h2>Separation of Concerns</h2>
 目的：システムを異なる概念や機能に基づいて複数の独立した部分に分割すること。<br>
 理由：関心ごとの分離により、モジュール性が向上し、変更が特定の領域に制限され、保守性と拡張性が向上する。<br>
 
-<h3>Leaky Abstraction</h3>
+<h2>Leaky Abstraction</h2>
 目的：抽象化が完全でなく、内部の実装の詳細が漏れることを最小限に抑えること。<br>
 理由：完全な抽象化が難しい場合、詳細が漏れると、使用者が予測できない挙動や問題に直面する可能性があるため。<br>
 
 
-<h2 id="review">レビュー</h2>
+<h1 id="review">レビュー</h1>
 新しい機能やバグ修正のたびに、他のメンバーにコードレビューを依頼する。
 
 
-<h2 id="test">テスト</h2>
+<h1 id="test">テスト</h1>
 新しい機能を追加した際や、既存の機能を修正した際には、関連するテストを必ず記述する。<br>
 すべてのテストがパスしてからマージを行う。<br>
 
 
-<h2 id="document">ドキュメントの整備</h2>
+<h1 id="document">ドキュメントの整備</h1>
 開発に関するドキュメントや設計書は適宜更新し、最新の状態を維持する。
 
 
-<h2 id="git-operation">Gitの運用について</h2>
-<h3>ブランチ戦略</h3>
-<h4>Git-flow</h4>
+<h1 id="git-operation">Gitの運用について</h1>
+<h2>ブランチ戦略</h2>
+
+### Git-flow
 長期的な開発とリリースの管理を目的としたブランチ戦略
 
 | branch | 説明 |
@@ -204,7 +205,7 @@ SOLID原則は、ソフトウェア設計の5つの基本的な原則を表し�
 | feature/* | 新機能開発や不具合の修正に使うブランチ |
 | hotfix/* | 公開中のもののバグ修正用ブランチ |
 
-<h4>GitHub-flow</h4>
+### GitHub-flow
 シンプルで柔軟なブランチ戦略
 
 | branch | 説明 |
@@ -212,27 +213,27 @@ SOLID原則は、ソフトウェア設計の5つの基本的な原則を表し�
 | main | 本番環境 | 
 | feature/* | 作業用ブランチ |
 
-<h4>GitLab-flow</h4>
+### GitLab-flow
 Git-flowとGitHub-flowを組み合わせたブランチ戦略
 
-<h4>トランクベース開発</h4>
+### トランクベース開発
 頻繁なアップデートをmainブランチ(トランク)での直接の開発を促進し、継続的かつ頻繁な統合を重視する戦略
 
-<h4>※branch運用基本ルール</h4>
+<h2>branch運用基本ルール</h2>
 mainに直push禁止<br>
 原則1ブランチ1機能<br>
 作業はfeatureブランチから分岐させる<br>
 作業ブランチはマージ後に削除<br>
 できるだけレビューする(誰かにしてもらう)<br>
 
-<h3>Issue & PullRequest</h3>
+<h2>Issue & PullRequest</h2>
 タスクやバグ、機能の追加など、具体的な作業内容はIssueに記述し、それに基づいて作業を行う。<br>
 作業が完了したら、Pull Requestを作成し、他のメンバーにレビューを依頼する。<br>
 
-<h3>Commit Message</h3>
+<h2>Commit Message</h2>
 コミットメッセージはPrefixを使い、明確に変更内容を伝えるものとする。
 
-<h4>Prefix（コミットメッセージ記法）</h4>
+### Prefix（コミットメッセージ記法）
 
 | Prefix | 説明 |
 | --- | --- |
@@ -252,14 +253,7 @@ mainに直push禁止<br>
 | merge | ブランチをマージ |
 | sleep | 寝たw |
 
-<h4>※コミットメッセージの例</h4>
-
-- init
-- chore: Reactと依存関係を追加
-- add: ユーザー登録機能を追加
-- sleep: I'm so sleepy
-
-<h4>Prefix(短縮Ver)</h4>
+### Prefix(短縮Ver)
 
 | Prefix | 説明 |
 | --- | --- |
@@ -267,6 +261,13 @@ mainに直push禁止<br>
 | remove, delete | 削除(ファイル、機能) |
 | update | 機能修正(バグではない) |
 | fix | バグ修正 |
+
+#### コミットメッセージの例
+
+- init
+- chore: Reactと依存関係を追加
+- add: ユーザー登録機能を追加
+- sleep: I'm so sleepy
 
 
 <h2 id="release-control">リリース制御（Feature Flag）</h2>
@@ -306,14 +307,14 @@ export const Page = () => {
 ```
 
 
-<h2 id="css-design">CSS設計</h2>
+<h1 id="css-design">CSS設計</h1>
 
 - BEM
 - OOCSS
 
 
-<h2 id="team-building">チームビルディング</h2>
-<h3>チームの最適人数(二枚のピザルール)</h3>
+<h1 id="team-building">チームビルディング</h1>
+<h2>チームの最適人数(二枚のピザルール)</h2>
 「二枚のピザルール」は、AmazonのCEOであるジェフ・ベゾスが提唱した考え方で、仕事のチームの人数はピザ2枚で賄える4人〜8人程度が最も望ましいとされています。このルールの目的は、会議の生産性を高めることです。
 具体的には、会議の参加者が多いほど、生産性は低下すると考えられています。これを解決するために、参加メンバーを2枚のピザを分け合える人数に抑えるのです。大勢が会議に参加すれば、創造性が犠牲になるという考え方が背景にあります。
 
@@ -326,7 +327,7 @@ export const Page = () => {
 #### 会議の工夫
 また、会議の進行役を任命したり、基本的なルールを設けたり、議題が参加者全員と関係あるかを事前に確認するなどの工夫が必要とされています。このように、「二枚のピザルール」は、会議の効率性と生産性を向上させるための一つの戦略と言えます。
 
-<h3>質問する適切なタイミング(Google人工知能チームの15分ルール)</h3>
+<h2>質問する適切なタイミング(Google人工知能チームの15分ルール)</h2>
 Googleの人工知能チームが採用している「15分ルール」は、問題解決のための効率的なアプローチを提供します。
 
 #### ルールの詳細
@@ -340,7 +341,8 @@ Googleの人工知能チームが採用している「15分ルール」は、問
 #### ルールの適用
 このルールはあくまで一つの指標であり、個々の状況により適切な時間やルールを決めることが重要です。
 
-#### 質問の方法
+
+<h2>質問の方法</h2>
 質問をする際は、自分が試したことや調べた内容を明示することで、質問を受ける側が解決策を見つけやすくなります。
 
 ### 質問する際の注意点
@@ -361,7 +363,7 @@ Googleの人工知能チームが採用している「15分ルール」は、問
 コードの画像を投稿すると、読みにくいし、文字のコピーなどができないため、ヘルプを提供するのが難しくなる。
 スクリーンショットは、ブラウザでの出力の問題を示す目的でのみ使用してください。
 
-### 質問する際のコツ(PREP法)
+#### 質問する際のコツ(PREP法)
 PREP法とは、Point(ポイント)、Reason(理由)、Example(例)、Point(ポイント)の頭文字を取ったもので、意見やアイデアを効果的に伝えるためのコミュニケーション手法です。具体的な手順は以下の通りです。
 
 1. Point(ポイント)：最初に主張や結論を述べます。これはあなたが何を伝えたいのかを明確にするためのものです。
@@ -370,13 +372,13 @@ PREP法とは、Point(ポイント)、Reason(理由)、Example(例)、Point(ポ�
 4. Point(再度ポイント)：最後に、最初の主張や結論を再度述べます。これはあなたのメッセージを強調し、リスナーにそれを覚えてもらうためのものです。
 
 
-<h2 id="reference">リファレンス</h2>
+<h1 id="reference">リファレンス</h1>
 
 - [Google Styleguide](https://github.com/google/styleguide/tree/gh-pages)
 - [Twelve-Factor App](https://12factor.net/ja/)
 
 
-<h2 id="template">便利なテンプレート</h2>
+<h1 id="template">便利なテンプレート</h1>
 
 - [質問](https://gist.github.com/dev-satoshi/4357a9d270b50c78ad9dd45e8c78ec7f)
 - [Feature Request](https://gist.github.com/dev-satoshi/95bc731b41660a2167d55e7a961a8fdc)
@@ -389,6 +391,6 @@ PREP法とは、Point(ポイント)、Reason(理由)、Example(例)、Point(ポ�
 - [記事の構成](https://gist.github.com/dev-satoshi/75db364f8af8eb7a903617c3ed5d720a)
 
 
-<h2 id="deals">お得な情報</h2>
+<h1 id="deals">お得な情報</h1>
 
 - [ホスティングサービス](https://gist.github.com/dev-satoshi/da065ccd2e8a872020ab9734fc90ee27)
