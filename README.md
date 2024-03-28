@@ -9,11 +9,11 @@
 - [ドキュメントの整備](#document)
 - [Gitの運用について](#git-operation)
 - [リリース制御（Feature Flag）](#release-control)
-- [CSS設計](#css-design)
 - [チームビルディング](#team-building)
 - [リファレンス](#reference)
 - [便利なテンプレート](#template)
 - [お得な情報](#deals)
+<!-- - [CSS設計](#css-design) -->
 
 
 <h1 id="code-style">コーディングスタイル</h1>
@@ -307,11 +307,12 @@ export const Page = () => {
 ```
 
 
+<!--
 <h1 id="css-design">CSS設計</h1>
 
 - BEM
 - OOCSS
-
+-->
 
 <h1 id="team-building">チームビルディング</h1>
 <h2>チームの最適人数(二枚のピザルール)</h2>
