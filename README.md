@@ -197,6 +197,14 @@ SOLID原則は、ソフトウェア設計の5つの基本的な原則を表し�
 
 [Google's Engineering Practices documentationを参考にしています。](https://fujiharuka.github.io/google-eng-practices-ja/ja/review/)
 
+### 修正要否ガイドライン
+| 観点 | 詳細 |
+| --- | --- |
+| MUST | 必ず対応してほしいこと。 |
+| SHOULD | 細かい指摘や気になること。 |
+| IMO | レビュアー個人の意見。 |
+| Q | 不明瞭で質問したいこと。 |
+
 
 <h1 id="test">テスト</h1>
 新しい機能を追加した際や、既存の機能を修正した際には、関連するテストを必ず記述する。<br>
