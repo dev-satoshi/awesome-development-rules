@@ -7,6 +7,7 @@
 <h1>目次</h1>
 
 - [コーディングスタイル](#code-style)
+- [パッケージ原則](#package-principles)
 - [コーディング原則](#code-principle)
 - [レビュー](#review)
 - [テスト](#test)
@@ -133,6 +134,11 @@ function exampleFunction(parameter: string): number {
 ログをイベントストリームとして扱う
 12. 管理プロセス<br>
 管理タスクを1回限りのプロセスとして実行する
+
+
+<h1 id="package-principles">パッケージ原則</h1>
+パッケージ原則とは、ソフトウェア開発におけるパッケージ設計の指針となる6つの原則です。<br>
+これらの原則は、パッケージを再利用可能で保守しやすいものにするために役立ちます。
 
 
 <h1 id="code-principle">コーディング原則</h1>
