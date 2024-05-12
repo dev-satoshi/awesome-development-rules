@@ -182,7 +182,7 @@ function exampleFunction(parameter: string): number {
 
 <h1 id="code-principle">コーディング原則</h1>
 <h2>SOLID</h2>
-SOLID原則は、ソフトウェア設計の5つの基本的な原則を表します。<br>
+SOLID原則は、オブジェクト指向プログラミングのコーディング慣例として広く採用される、5つの基本的な原則を表します。<br>
 これらの原則は、ソフトウェアをより理解しやすく、より柔軟に、よりメンテナナンス性の高いものにすることを目的としています。<br>
 
 #### 単一責任の原則（Single Responsibility Principle）<br>
